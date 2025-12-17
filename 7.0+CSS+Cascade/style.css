@@ -1,0 +1,33 @@
+/* Don't change the existing CSS. */
+/* style.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* Base box styling */
+.box {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Outer purple box */
+#outer-box {
+  background-color: purple;
+  padding: 20px;
+}
+
+#outer-box > .box {
+  background-color: blue;
+  gap: 100%;
+  
+}
+
+
+p {
+  color: yellow;
+  margin: 0;
+  padding: 0;
+}
